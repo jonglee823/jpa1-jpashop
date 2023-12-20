@@ -14,11 +14,15 @@ public class ItemRepository {
     private final EntityManager em;
 
     public Long save(Item item){
-        if(null == item.getId()){
-            em.persist(item);
-        }else{
-            em.merge(item);
-        }
+        // merge사용시 null로 입력된 객체는 Null로 업데이트됨..
+        // 따라서 실무에서는 merge 보다는 업데이트 가능한 부분만 변경
+//        if(null == item.getId()){
+//            em.persist(item);
+//        }else{
+//            em.merge(item);
+//        }
+
+        em.persist(item);
 
         return item.getId();
     }
