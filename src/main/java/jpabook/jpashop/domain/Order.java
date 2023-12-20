@@ -1,14 +1,13 @@
 package jpabook.jpashop.domain;
 
 import jakarta.persistence.*;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
+import lombok.*;
 
 import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
+import java.util.Optional;
 
 import static jakarta.persistence.CascadeType.*;
 import static jakarta.persistence.FetchType.*;
@@ -16,7 +15,7 @@ import static jakarta.persistence.FetchType.*;
 @Entity
 @Table(name ="orders")
 @Getter @Setter
-@NoArgsConstructor
+@NoArgsConstructor(access = AccessLevel.PROTECTED)
 public class Order {
 
     @Id
@@ -28,7 +27,7 @@ public class Order {
     @JoinColumn(name="member_id")
     private Member member;
 
-    @OneToOne(fetch = LAZY)
+    @OneToOne(fetch = LAZY, cascade = ALL)
     @JoinColumn(name ="delivery_id")
     private Delivery delivery;
 
@@ -39,6 +38,18 @@ public class Order {
 
     @Enumerated(EnumType.STRING)
     private OrderStatus status;
+
+    public static Order createOrder(Member member, Delivery delivery, OrderItem... orderItems){
+        Order order = new Order();
+        order.setMember(member);
+        order.setDelivery(delivery);
+        for (OrderItem orderItem : orderItems){
+            order.addOrderItem(orderItem);
+        }
+        order.setStatus(OrderStatus.ORDER);
+        order.setOrderDate(LocalDateTime.now());
+        return order;
+    }
 
     public void setMember(Member member){
         this.member = member;
@@ -54,4 +65,30 @@ public class Order {
         this.delivery = delivery;
         delivery.setOrder(this);
     }
+
+    /**
+     * 주문 취소
+     */
+    public void cancel(){
+        if (delivery.getStatus() == DeliveryStatus.COMP){
+            throw new IllegalStateException("["+ id +"] " + "이미 배송 완료된 상품은 주문 취소가 불가능합니다.");
+        }
+
+        this.setStatus(OrderStatus.CANCEL);
+        for(OrderItem orderItem : orderItems){
+            orderItem.cancel();
+        }
+    }
+
+    /**
+     * 전체 주문 상품 가격 조회
+     */
+    public int getTotalPrice(){
+        int totalPrice = 0;
+        for (OrderItem orderItem: orderItems){
+            totalPrice += orderItem.getTotalPrice();
+        }
+        return totalPrice;
+    }
+
 }

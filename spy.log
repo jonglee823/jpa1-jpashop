@@ -1,0 +1,240 @@
+1702955642998|0|statement|connection 29|url jdbc:mysql://127.0.0.1:3306/jpa|     alter table category         drop         foreign key FK2y94svpmqttx80mshyny85wqr|     alter table category         drop         foreign key FK2y94svpmqttx80mshyny85wqr
+1702955643000|0|statement|connection 29|url jdbc:mysql://127.0.0.1:3306/jpa|     alter table category_item         drop         foreign key FKu8b4lwqutcdq3363gf6mlujq|     alter table category_item         drop         foreign key FKu8b4lwqutcdq3363gf6mlujq
+1702955643001|0|statement|connection 29|url jdbc:mysql://127.0.0.1:3306/jpa|     alter table category_item         drop         foreign key FKcq2n0opf5shyh84ex1fhukcbh|     alter table category_item         drop         foreign key FKcq2n0opf5shyh84ex1fhukcbh
+1702955643003|0|statement|connection 29|url jdbc:mysql://127.0.0.1:3306/jpa|     alter table order_item         drop         foreign key FKija6hjjiit8dprnmvtvgdp6ru|     alter table order_item         drop         foreign key FKija6hjjiit8dprnmvtvgdp6ru
+1702955643004|0|statement|connection 29|url jdbc:mysql://127.0.0.1:3306/jpa|     alter table order_item         drop         foreign key FKt4dc2r9nbvbujrljv3e23iibt|     alter table order_item         drop         foreign key FKt4dc2r9nbvbujrljv3e23iibt
+1702955643005|1|statement|connection 29|url jdbc:mysql://127.0.0.1:3306/jpa|     alter table orders         drop         foreign key FKtkrur7wg4d8ax0pwgo0vmy20c|     alter table orders         drop         foreign key FKtkrur7wg4d8ax0pwgo0vmy20c
+1702955643007|0|statement|connection 29|url jdbc:mysql://127.0.0.1:3306/jpa|     alter table orders         drop         foreign key FKpktxwhj3x9m4gth5ff6bkqgeb|     alter table orders         drop         foreign key FKpktxwhj3x9m4gth5ff6bkqgeb
+1702955643074|67|statement|connection 29|url jdbc:mysql://127.0.0.1:3306/jpa|     drop table if exists category|     drop table if exists category
+1702955643107|31|statement|connection 29|url jdbc:mysql://127.0.0.1:3306/jpa|     drop table if exists category_item|     drop table if exists category_item
+1702955643174|67|statement|connection 29|url jdbc:mysql://127.0.0.1:3306/jpa|     drop table if exists category_seq|     drop table if exists category_seq
+1702955643338|163|statement|connection 29|url jdbc:mysql://127.0.0.1:3306/jpa|     drop table if exists delivery|     drop table if exists delivery
+1702955643529|189|statement|connection 29|url jdbc:mysql://127.0.0.1:3306/jpa|     drop table if exists delivery_seq|     drop table if exists delivery_seq
+1702955643600|70|statement|connection 29|url jdbc:mysql://127.0.0.1:3306/jpa|     drop table if exists item|     drop table if exists item
+1702955643638|36|statement|connection 29|url jdbc:mysql://127.0.0.1:3306/jpa|     drop table if exists item_seq|     drop table if exists item_seq
+1702955643845|207|statement|connection 29|url jdbc:mysql://127.0.0.1:3306/jpa|     drop table if exists member|     drop table if exists member
+1702955643876|30|statement|connection 29|url jdbc:mysql://127.0.0.1:3306/jpa|     drop table if exists member_seq|     drop table if exists member_seq
+1702955643978|100|statement|connection 29|url jdbc:mysql://127.0.0.1:3306/jpa|     drop table if exists order_item_seq|     drop table if exists order_item_seq
+1702955644011|32|statement|connection 29|url jdbc:mysql://127.0.0.1:3306/jpa|     drop table if exists order_item|     drop table if exists order_item
+1702955644045|32|statement|connection 29|url jdbc:mysql://127.0.0.1:3306/jpa|     drop table if exists orders|     drop table if exists orders
+1702955644079|32|statement|connection 29|url jdbc:mysql://127.0.0.1:3306/jpa|     drop table if exists orders_seq|     drop table if exists orders_seq
+1702955644088|0|statement|connection 30|url jdbc:mysql://127.0.0.1:3306/jpa|     alter table category         drop         foreign key FK2y94svpmqttx80mshyny85wqr|     alter table category         drop         foreign key FK2y94svpmqttx80mshyny85wqr
+1702955644089|0|statement|connection 30|url jdbc:mysql://127.0.0.1:3306/jpa|     alter table category_item         drop         foreign key FKu8b4lwqutcdq3363gf6mlujq|     alter table category_item         drop         foreign key FKu8b4lwqutcdq3363gf6mlujq
+1702955644090|1|statement|connection 30|url jdbc:mysql://127.0.0.1:3306/jpa|     alter table category_item         drop         foreign key FKcq2n0opf5shyh84ex1fhukcbh|     alter table category_item         drop         foreign key FKcq2n0opf5shyh84ex1fhukcbh
+1702955644091|0|statement|connection 30|url jdbc:mysql://127.0.0.1:3306/jpa|     alter table order_item         drop         foreign key FKija6hjjiit8dprnmvtvgdp6ru|     alter table order_item         drop         foreign key FKija6hjjiit8dprnmvtvgdp6ru
+1702955644093|0|statement|connection 30|url jdbc:mysql://127.0.0.1:3306/jpa|     alter table order_item         drop         foreign key FKt4dc2r9nbvbujrljv3e23iibt|     alter table order_item         drop         foreign key FKt4dc2r9nbvbujrljv3e23iibt
+1702955644094|0|statement|connection 30|url jdbc:mysql://127.0.0.1:3306/jpa|     alter table orders         drop         foreign key FKtkrur7wg4d8ax0pwgo0vmy20c|     alter table orders         drop         foreign key FKtkrur7wg4d8ax0pwgo0vmy20c
+1702955644095|0|statement|connection 30|url jdbc:mysql://127.0.0.1:3306/jpa|     alter table orders         drop         foreign key FKpktxwhj3x9m4gth5ff6bkqgeb|     alter table orders         drop         foreign key FKpktxwhj3x9m4gth5ff6bkqgeb
+1702955644134|38|statement|connection 30|url jdbc:mysql://127.0.0.1:3306/jpa|     drop table if exists category|     drop table if exists category
+1702955644236|101|statement|connection 30|url jdbc:mysql://127.0.0.1:3306/jpa|     drop table if exists category_item|     drop table if exists category_item
+1702955644270|33|statement|connection 30|url jdbc:mysql://127.0.0.1:3306/jpa|     drop table if exists category_seq|     drop table if exists category_seq
+1702955644307|36|statement|connection 30|url jdbc:mysql://127.0.0.1:3306/jpa|     drop table if exists delivery|     drop table if exists delivery
+1702955644340|32|statement|connection 30|url jdbc:mysql://127.0.0.1:3306/jpa|     drop table if exists delivery_seq|     drop table if exists delivery_seq
+1702955644372|31|statement|connection 30|url jdbc:mysql://127.0.0.1:3306/jpa|     drop table if exists item|     drop table if exists item
+1702955644409|36|statement|connection 30|url jdbc:mysql://127.0.0.1:3306/jpa|     drop table if exists item_seq|     drop table if exists item_seq
+1702955644444|34|statement|connection 30|url jdbc:mysql://127.0.0.1:3306/jpa|     drop table if exists member|     drop table if exists member
+1702955644485|40|statement|connection 30|url jdbc:mysql://127.0.0.1:3306/jpa|     drop table if exists member_seq|     drop table if exists member_seq
+1702955644626|141|statement|connection 30|url jdbc:mysql://127.0.0.1:3306/jpa|     drop table if exists order_item_seq|     drop table if exists order_item_seq
+1702955644657|30|statement|connection 30|url jdbc:mysql://127.0.0.1:3306/jpa|     drop table if exists order_item|     drop table if exists order_item
+1702955644694|36|statement|connection 30|url jdbc:mysql://127.0.0.1:3306/jpa|     drop table if exists orders|     drop table if exists orders
+1702955644730|35|statement|connection 30|url jdbc:mysql://127.0.0.1:3306/jpa|     drop table if exists orders_seq|     drop table if exists orders_seq
+1702955678214|0|statement|connection 29|url jdbc:mysql://127.0.0.1:3306/jpa|     alter table category         drop         foreign key FK2y94svpmqttx80mshyny85wqr|     alter table category         drop         foreign key FK2y94svpmqttx80mshyny85wqr
+1702955678216|0|statement|connection 29|url jdbc:mysql://127.0.0.1:3306/jpa|     alter table category_item         drop         foreign key FKu8b4lwqutcdq3363gf6mlujq|     alter table category_item         drop         foreign key FKu8b4lwqutcdq3363gf6mlujq
+1702955678218|0|statement|connection 29|url jdbc:mysql://127.0.0.1:3306/jpa|     alter table category_item         drop         foreign key FKcq2n0opf5shyh84ex1fhukcbh|     alter table category_item         drop         foreign key FKcq2n0opf5shyh84ex1fhukcbh
+1702955678219|0|statement|connection 29|url jdbc:mysql://127.0.0.1:3306/jpa|     alter table order_item         drop         foreign key FKija6hjjiit8dprnmvtvgdp6ru|     alter table order_item         drop         foreign key FKija6hjjiit8dprnmvtvgdp6ru
+1702955678220|0|statement|connection 29|url jdbc:mysql://127.0.0.1:3306/jpa|     alter table order_item         drop         foreign key FKt4dc2r9nbvbujrljv3e23iibt|     alter table order_item         drop         foreign key FKt4dc2r9nbvbujrljv3e23iibt
+1702955678222|1|statement|connection 29|url jdbc:mysql://127.0.0.1:3306/jpa|     alter table orders         drop         foreign key FKtkrur7wg4d8ax0pwgo0vmy20c|     alter table orders         drop         foreign key FKtkrur7wg4d8ax0pwgo0vmy20c
+1702955678223|1|statement|connection 29|url jdbc:mysql://127.0.0.1:3306/jpa|     alter table orders         drop         foreign key FKpktxwhj3x9m4gth5ff6bkqgeb|     alter table orders         drop         foreign key FKpktxwhj3x9m4gth5ff6bkqgeb
+1702955678268|44|statement|connection 29|url jdbc:mysql://127.0.0.1:3306/jpa|     drop table if exists category|     drop table if exists category
+1702955678405|136|statement|connection 29|url jdbc:mysql://127.0.0.1:3306/jpa|     drop table if exists category_item|     drop table if exists category_item
+1702955678473|67|statement|connection 29|url jdbc:mysql://127.0.0.1:3306/jpa|     drop table if exists category_seq|     drop table if exists category_seq
+1702955678614|140|statement|connection 29|url jdbc:mysql://127.0.0.1:3306/jpa|     drop table if exists delivery|     drop table if exists delivery
+1702955678688|72|statement|connection 29|url jdbc:mysql://127.0.0.1:3306/jpa|     drop table if exists delivery_seq|     drop table if exists delivery_seq
+1702955678729|41|statement|connection 29|url jdbc:mysql://127.0.0.1:3306/jpa|     drop table if exists item|     drop table if exists item
+1702955678762|31|statement|connection 29|url jdbc:mysql://127.0.0.1:3306/jpa|     drop table if exists item_seq|     drop table if exists item_seq
+1702955678838|75|statement|connection 29|url jdbc:mysql://127.0.0.1:3306/jpa|     drop table if exists member|     drop table if exists member
+1702955678876|37|statement|connection 29|url jdbc:mysql://127.0.0.1:3306/jpa|     drop table if exists member_seq|     drop table if exists member_seq
+1702955678909|31|statement|connection 29|url jdbc:mysql://127.0.0.1:3306/jpa|     drop table if exists order_item_seq|     drop table if exists order_item_seq
+1702955678942|33|statement|connection 29|url jdbc:mysql://127.0.0.1:3306/jpa|     drop table if exists order_item|     drop table if exists order_item
+1702955678975|32|statement|connection 29|url jdbc:mysql://127.0.0.1:3306/jpa|     drop table if exists orders|     drop table if exists orders
+1702955679007|31|statement|connection 29|url jdbc:mysql://127.0.0.1:3306/jpa|     drop table if exists orders_seq|     drop table if exists orders_seq
+1702955679014|0|statement|connection 30|url jdbc:mysql://127.0.0.1:3306/jpa|     alter table category         drop         foreign key FK2y94svpmqttx80mshyny85wqr|     alter table category         drop         foreign key FK2y94svpmqttx80mshyny85wqr
+1702955679016|0|statement|connection 30|url jdbc:mysql://127.0.0.1:3306/jpa|     alter table category_item         drop         foreign key FKu8b4lwqutcdq3363gf6mlujq|     alter table category_item         drop         foreign key FKu8b4lwqutcdq3363gf6mlujq
+1702955679017|0|statement|connection 30|url jdbc:mysql://127.0.0.1:3306/jpa|     alter table category_item         drop         foreign key FKcq2n0opf5shyh84ex1fhukcbh|     alter table category_item         drop         foreign key FKcq2n0opf5shyh84ex1fhukcbh
+1702955679018|0|statement|connection 30|url jdbc:mysql://127.0.0.1:3306/jpa|     alter table order_item         drop         foreign key FKija6hjjiit8dprnmvtvgdp6ru|     alter table order_item         drop         foreign key FKija6hjjiit8dprnmvtvgdp6ru
+1702955679019|0|statement|connection 30|url jdbc:mysql://127.0.0.1:3306/jpa|     alter table order_item         drop         foreign key FKt4dc2r9nbvbujrljv3e23iibt|     alter table order_item         drop         foreign key FKt4dc2r9nbvbujrljv3e23iibt
+1702955679020|0|statement|connection 30|url jdbc:mysql://127.0.0.1:3306/jpa|     alter table orders         drop         foreign key FKtkrur7wg4d8ax0pwgo0vmy20c|     alter table orders         drop         foreign key FKtkrur7wg4d8ax0pwgo0vmy20c
+1702955679021|0|statement|connection 30|url jdbc:mysql://127.0.0.1:3306/jpa|     alter table orders         drop         foreign key FKpktxwhj3x9m4gth5ff6bkqgeb|     alter table orders         drop         foreign key FKpktxwhj3x9m4gth5ff6bkqgeb
+1702955679051|29|statement|connection 30|url jdbc:mysql://127.0.0.1:3306/jpa|     drop table if exists category|     drop table if exists category
+1702955679088|36|statement|connection 30|url jdbc:mysql://127.0.0.1:3306/jpa|     drop table if exists category_item|     drop table if exists category_item
+1702955679124|35|statement|connection 30|url jdbc:mysql://127.0.0.1:3306/jpa|     drop table if exists category_seq|     drop table if exists category_seq
+1702955679161|36|statement|connection 30|url jdbc:mysql://127.0.0.1:3306/jpa|     drop table if exists delivery|     drop table if exists delivery
+1702955679197|35|statement|connection 30|url jdbc:mysql://127.0.0.1:3306/jpa|     drop table if exists delivery_seq|     drop table if exists delivery_seq
+1702955679229|31|statement|connection 30|url jdbc:mysql://127.0.0.1:3306/jpa|     drop table if exists item|     drop table if exists item
+1702955679260|30|statement|connection 30|url jdbc:mysql://127.0.0.1:3306/jpa|     drop table if exists item_seq|     drop table if exists item_seq
+1702955679293|32|statement|connection 30|url jdbc:mysql://127.0.0.1:3306/jpa|     drop table if exists member|     drop table if exists member
+1702955679332|38|statement|connection 30|url jdbc:mysql://127.0.0.1:3306/jpa|     drop table if exists member_seq|     drop table if exists member_seq
+1702955679366|33|statement|connection 30|url jdbc:mysql://127.0.0.1:3306/jpa|     drop table if exists order_item_seq|     drop table if exists order_item_seq
+1702955679397|30|statement|connection 30|url jdbc:mysql://127.0.0.1:3306/jpa|     drop table if exists order_item|     drop table if exists order_item
+1702955679429|31|statement|connection 30|url jdbc:mysql://127.0.0.1:3306/jpa|     drop table if exists orders|     drop table if exists orders
+1702955679460|30|statement|connection 30|url jdbc:mysql://127.0.0.1:3306/jpa|     drop table if exists orders_seq|     drop table if exists orders_seq
+1702955805655|0|statement|connection 29|url jdbc:mysql://127.0.0.1:3306/jpa|     alter table category         drop         foreign key FK2y94svpmqttx80mshyny85wqr|     alter table category         drop         foreign key FK2y94svpmqttx80mshyny85wqr
+1702955805657|0|statement|connection 29|url jdbc:mysql://127.0.0.1:3306/jpa|     alter table category_item         drop         foreign key FKu8b4lwqutcdq3363gf6mlujq|     alter table category_item         drop         foreign key FKu8b4lwqutcdq3363gf6mlujq
+1702955805659|0|statement|connection 29|url jdbc:mysql://127.0.0.1:3306/jpa|     alter table category_item         drop         foreign key FKcq2n0opf5shyh84ex1fhukcbh|     alter table category_item         drop         foreign key FKcq2n0opf5shyh84ex1fhukcbh
+1702955805660|0|statement|connection 29|url jdbc:mysql://127.0.0.1:3306/jpa|     alter table order_item         drop         foreign key FKija6hjjiit8dprnmvtvgdp6ru|     alter table order_item         drop         foreign key FKija6hjjiit8dprnmvtvgdp6ru
+1702955805661|0|statement|connection 29|url jdbc:mysql://127.0.0.1:3306/jpa|     alter table order_item         drop         foreign key FKt4dc2r9nbvbujrljv3e23iibt|     alter table order_item         drop         foreign key FKt4dc2r9nbvbujrljv3e23iibt
+1702955805662|0|statement|connection 29|url jdbc:mysql://127.0.0.1:3306/jpa|     alter table orders         drop         foreign key FKtkrur7wg4d8ax0pwgo0vmy20c|     alter table orders         drop         foreign key FKtkrur7wg4d8ax0pwgo0vmy20c
+1702955805663|0|statement|connection 29|url jdbc:mysql://127.0.0.1:3306/jpa|     alter table orders         drop         foreign key FKpktxwhj3x9m4gth5ff6bkqgeb|     alter table orders         drop         foreign key FKpktxwhj3x9m4gth5ff6bkqgeb
+1702955805770|106|statement|connection 29|url jdbc:mysql://127.0.0.1:3306/jpa|     drop table if exists category|     drop table if exists category
+1702955805804|33|statement|connection 29|url jdbc:mysql://127.0.0.1:3306/jpa|     drop table if exists category_item|     drop table if exists category_item
+1702955805839|34|statement|connection 29|url jdbc:mysql://127.0.0.1:3306/jpa|     drop table if exists category_seq|     drop table if exists category_seq
+1702955805881|41|statement|connection 29|url jdbc:mysql://127.0.0.1:3306/jpa|     drop table if exists delivery|     drop table if exists delivery
+1702955805918|36|statement|connection 29|url jdbc:mysql://127.0.0.1:3306/jpa|     drop table if exists delivery_seq|     drop table if exists delivery_seq
+1702955805988|68|statement|connection 29|url jdbc:mysql://127.0.0.1:3306/jpa|     drop table if exists item|     drop table if exists item
+1702955806054|64|statement|connection 29|url jdbc:mysql://127.0.0.1:3306/jpa|     drop table if exists item_seq|     drop table if exists item_seq
+1702955806086|31|statement|connection 29|url jdbc:mysql://127.0.0.1:3306/jpa|     drop table if exists member|     drop table if exists member
+1702955806119|32|statement|connection 29|url jdbc:mysql://127.0.0.1:3306/jpa|     drop table if exists member_seq|     drop table if exists member_seq
+1702955806151|31|statement|connection 29|url jdbc:mysql://127.0.0.1:3306/jpa|     drop table if exists order_item_seq|     drop table if exists order_item_seq
+1702955806183|31|statement|connection 29|url jdbc:mysql://127.0.0.1:3306/jpa|     drop table if exists order_item|     drop table if exists order_item
+1702955806316|132|statement|connection 29|url jdbc:mysql://127.0.0.1:3306/jpa|     drop table if exists orders|     drop table if exists orders
+1702955806349|33|statement|connection 29|url jdbc:mysql://127.0.0.1:3306/jpa|     drop table if exists orders_seq|     drop table if exists orders_seq
+1702955806357|0|statement|connection 30|url jdbc:mysql://127.0.0.1:3306/jpa|     alter table category         drop         foreign key FK2y94svpmqttx80mshyny85wqr|     alter table category         drop         foreign key FK2y94svpmqttx80mshyny85wqr
+1702955806359|1|statement|connection 30|url jdbc:mysql://127.0.0.1:3306/jpa|     alter table category_item         drop         foreign key FKu8b4lwqutcdq3363gf6mlujq|     alter table category_item         drop         foreign key FKu8b4lwqutcdq3363gf6mlujq
+1702955806360|0|statement|connection 30|url jdbc:mysql://127.0.0.1:3306/jpa|     alter table category_item         drop         foreign key FKcq2n0opf5shyh84ex1fhukcbh|     alter table category_item         drop         foreign key FKcq2n0opf5shyh84ex1fhukcbh
+1702955806362|0|statement|connection 30|url jdbc:mysql://127.0.0.1:3306/jpa|     alter table order_item         drop         foreign key FKija6hjjiit8dprnmvtvgdp6ru|     alter table order_item         drop         foreign key FKija6hjjiit8dprnmvtvgdp6ru
+1702955806363|0|statement|connection 30|url jdbc:mysql://127.0.0.1:3306/jpa|     alter table order_item         drop         foreign key FKt4dc2r9nbvbujrljv3e23iibt|     alter table order_item         drop         foreign key FKt4dc2r9nbvbujrljv3e23iibt
+1702955806364|0|statement|connection 30|url jdbc:mysql://127.0.0.1:3306/jpa|     alter table orders         drop         foreign key FKtkrur7wg4d8ax0pwgo0vmy20c|     alter table orders         drop         foreign key FKtkrur7wg4d8ax0pwgo0vmy20c
+1702955806365|0|statement|connection 30|url jdbc:mysql://127.0.0.1:3306/jpa|     alter table orders         drop         foreign key FKpktxwhj3x9m4gth5ff6bkqgeb|     alter table orders         drop         foreign key FKpktxwhj3x9m4gth5ff6bkqgeb
+1702955806401|35|statement|connection 30|url jdbc:mysql://127.0.0.1:3306/jpa|     drop table if exists category|     drop table if exists category
+1702955806524|122|statement|connection 30|url jdbc:mysql://127.0.0.1:3306/jpa|     drop table if exists category_item|     drop table if exists category_item
+1702955806691|155|statement|connection 30|url jdbc:mysql://127.0.0.1:3306/jpa|     drop table if exists category_seq|     drop table if exists category_seq
+1702955806941|246|statement|connection 30|url jdbc:mysql://127.0.0.1:3306/jpa|     drop table if exists delivery|     drop table if exists delivery
+1702955806994|52|statement|connection 30|url jdbc:mysql://127.0.0.1:3306/jpa|     drop table if exists delivery_seq|     drop table if exists delivery_seq
+1702955807036|41|statement|connection 30|url jdbc:mysql://127.0.0.1:3306/jpa|     drop table if exists item|     drop table if exists item
+1702955807193|156|statement|connection 30|url jdbc:mysql://127.0.0.1:3306/jpa|     drop table if exists item_seq|     drop table if exists item_seq
+1702955807257|63|statement|connection 30|url jdbc:mysql://127.0.0.1:3306/jpa|     drop table if exists member|     drop table if exists member
+1702955807294|36|statement|connection 30|url jdbc:mysql://127.0.0.1:3306/jpa|     drop table if exists member_seq|     drop table if exists member_seq
+1702955807326|31|statement|connection 30|url jdbc:mysql://127.0.0.1:3306/jpa|     drop table if exists order_item_seq|     drop table if exists order_item_seq
+1702955807403|76|statement|connection 30|url jdbc:mysql://127.0.0.1:3306/jpa|     drop table if exists order_item|     drop table if exists order_item
+1702955807507|103|statement|connection 30|url jdbc:mysql://127.0.0.1:3306/jpa|     drop table if exists orders|     drop table if exists orders
+1702955807609|100|statement|connection 30|url jdbc:mysql://127.0.0.1:3306/jpa|     drop table if exists orders_seq|     drop table if exists orders_seq
+1702955904937|0|statement|connection 29|url jdbc:mysql://127.0.0.1:3306/jpa|     alter table category         drop         foreign key FK2y94svpmqttx80mshyny85wqr|     alter table category         drop         foreign key FK2y94svpmqttx80mshyny85wqr
+1702955904939|0|statement|connection 29|url jdbc:mysql://127.0.0.1:3306/jpa|     alter table category_item         drop         foreign key FKu8b4lwqutcdq3363gf6mlujq|     alter table category_item         drop         foreign key FKu8b4lwqutcdq3363gf6mlujq
+1702955904940|0|statement|connection 29|url jdbc:mysql://127.0.0.1:3306/jpa|     alter table category_item         drop         foreign key FKcq2n0opf5shyh84ex1fhukcbh|     alter table category_item         drop         foreign key FKcq2n0opf5shyh84ex1fhukcbh
+1702955904941|0|statement|connection 29|url jdbc:mysql://127.0.0.1:3306/jpa|     alter table order_item         drop         foreign key FKija6hjjiit8dprnmvtvgdp6ru|     alter table order_item         drop         foreign key FKija6hjjiit8dprnmvtvgdp6ru
+1702955904942|0|statement|connection 29|url jdbc:mysql://127.0.0.1:3306/jpa|     alter table order_item         drop         foreign key FKt4dc2r9nbvbujrljv3e23iibt|     alter table order_item         drop         foreign key FKt4dc2r9nbvbujrljv3e23iibt
+1702955904944|1|statement|connection 29|url jdbc:mysql://127.0.0.1:3306/jpa|     alter table orders         drop         foreign key FKtkrur7wg4d8ax0pwgo0vmy20c|     alter table orders         drop         foreign key FKtkrur7wg4d8ax0pwgo0vmy20c
+1702955904945|0|statement|connection 29|url jdbc:mysql://127.0.0.1:3306/jpa|     alter table orders         drop         foreign key FKpktxwhj3x9m4gth5ff6bkqgeb|     alter table orders         drop         foreign key FKpktxwhj3x9m4gth5ff6bkqgeb
+1702955905014|68|statement|connection 29|url jdbc:mysql://127.0.0.1:3306/jpa|     drop table if exists category|     drop table if exists category
+1702955905048|33|statement|connection 29|url jdbc:mysql://127.0.0.1:3306/jpa|     drop table if exists category_item|     drop table if exists category_item
+1702955905086|37|statement|connection 29|url jdbc:mysql://127.0.0.1:3306/jpa|     drop table if exists category_seq|     drop table if exists category_seq
+1702955905118|31|statement|connection 29|url jdbc:mysql://127.0.0.1:3306/jpa|     drop table if exists delivery|     drop table if exists delivery
+1702955905155|36|statement|connection 29|url jdbc:mysql://127.0.0.1:3306/jpa|     drop table if exists delivery_seq|     drop table if exists delivery_seq
+1702955905191|35|statement|connection 29|url jdbc:mysql://127.0.0.1:3306/jpa|     drop table if exists item|     drop table if exists item
+1702955905267|75|statement|connection 29|url jdbc:mysql://127.0.0.1:3306/jpa|     drop table if exists item_seq|     drop table if exists item_seq
+1702955905366|99|statement|connection 29|url jdbc:mysql://127.0.0.1:3306/jpa|     drop table if exists member|     drop table if exists member
+1702955905403|36|statement|connection 29|url jdbc:mysql://127.0.0.1:3306/jpa|     drop table if exists member_seq|     drop table if exists member_seq
+1702955905510|106|statement|connection 29|url jdbc:mysql://127.0.0.1:3306/jpa|     drop table if exists order_item_seq|     drop table if exists order_item_seq
+1702955905544|33|statement|connection 29|url jdbc:mysql://127.0.0.1:3306/jpa|     drop table if exists order_item|     drop table if exists order_item
+1702955905576|31|statement|connection 29|url jdbc:mysql://127.0.0.1:3306/jpa|     drop table if exists orders|     drop table if exists orders
+1702955905608|31|statement|connection 29|url jdbc:mysql://127.0.0.1:3306/jpa|     drop table if exists orders_seq|     drop table if exists orders_seq
+1702955905616|0|statement|connection 30|url jdbc:mysql://127.0.0.1:3306/jpa|     alter table category         drop         foreign key FK2y94svpmqttx80mshyny85wqr|     alter table category         drop         foreign key FK2y94svpmqttx80mshyny85wqr
+1702955905617|0|statement|connection 30|url jdbc:mysql://127.0.0.1:3306/jpa|     alter table category_item         drop         foreign key FKu8b4lwqutcdq3363gf6mlujq|     alter table category_item         drop         foreign key FKu8b4lwqutcdq3363gf6mlujq
+1702955905618|0|statement|connection 30|url jdbc:mysql://127.0.0.1:3306/jpa|     alter table category_item         drop         foreign key FKcq2n0opf5shyh84ex1fhukcbh|     alter table category_item         drop         foreign key FKcq2n0opf5shyh84ex1fhukcbh
+1702955905619|0|statement|connection 30|url jdbc:mysql://127.0.0.1:3306/jpa|     alter table order_item         drop         foreign key FKija6hjjiit8dprnmvtvgdp6ru|     alter table order_item         drop         foreign key FKija6hjjiit8dprnmvtvgdp6ru
+1702955905620|0|statement|connection 30|url jdbc:mysql://127.0.0.1:3306/jpa|     alter table order_item         drop         foreign key FKt4dc2r9nbvbujrljv3e23iibt|     alter table order_item         drop         foreign key FKt4dc2r9nbvbujrljv3e23iibt
+1702955905621|0|statement|connection 30|url jdbc:mysql://127.0.0.1:3306/jpa|     alter table orders         drop         foreign key FKtkrur7wg4d8ax0pwgo0vmy20c|     alter table orders         drop         foreign key FKtkrur7wg4d8ax0pwgo0vmy20c
+1702955905622|0|statement|connection 30|url jdbc:mysql://127.0.0.1:3306/jpa|     alter table orders         drop         foreign key FKpktxwhj3x9m4gth5ff6bkqgeb|     alter table orders         drop         foreign key FKpktxwhj3x9m4gth5ff6bkqgeb
+1702955905661|38|statement|connection 30|url jdbc:mysql://127.0.0.1:3306/jpa|     drop table if exists category|     drop table if exists category
+1702955905694|32|statement|connection 30|url jdbc:mysql://127.0.0.1:3306/jpa|     drop table if exists category_item|     drop table if exists category_item
+1702955905730|35|statement|connection 30|url jdbc:mysql://127.0.0.1:3306/jpa|     drop table if exists category_seq|     drop table if exists category_seq
+1702955905762|31|statement|connection 30|url jdbc:mysql://127.0.0.1:3306/jpa|     drop table if exists delivery|     drop table if exists delivery
+1702955905795|32|statement|connection 30|url jdbc:mysql://127.0.0.1:3306/jpa|     drop table if exists delivery_seq|     drop table if exists delivery_seq
+1702955905865|69|statement|connection 30|url jdbc:mysql://127.0.0.1:3306/jpa|     drop table if exists item|     drop table if exists item
+1702955905935|69|statement|connection 30|url jdbc:mysql://127.0.0.1:3306/jpa|     drop table if exists item_seq|     drop table if exists item_seq
+1702955905969|33|statement|connection 30|url jdbc:mysql://127.0.0.1:3306/jpa|     drop table if exists member|     drop table if exists member
+1702955906037|67|statement|connection 30|url jdbc:mysql://127.0.0.1:3306/jpa|     drop table if exists member_seq|     drop table if exists member_seq
+1702955906112|74|statement|connection 30|url jdbc:mysql://127.0.0.1:3306/jpa|     drop table if exists order_item_seq|     drop table if exists order_item_seq
+1702955906144|31|statement|connection 30|url jdbc:mysql://127.0.0.1:3306/jpa|     drop table if exists order_item|     drop table if exists order_item
+1702955906177|32|statement|connection 30|url jdbc:mysql://127.0.0.1:3306/jpa|     drop table if exists orders|     drop table if exists orders
+1702955906215|37|statement|connection 30|url jdbc:mysql://127.0.0.1:3306/jpa|     drop table if exists orders_seq|     drop table if exists orders_seq
+1702955935222|0|statement|connection 29|url jdbc:mysql://127.0.0.1:3306/jpa|     alter table category         drop         foreign key FK2y94svpmqttx80mshyny85wqr|     alter table category         drop         foreign key FK2y94svpmqttx80mshyny85wqr
+1702955935224|0|statement|connection 29|url jdbc:mysql://127.0.0.1:3306/jpa|     alter table category_item         drop         foreign key FKu8b4lwqutcdq3363gf6mlujq|     alter table category_item         drop         foreign key FKu8b4lwqutcdq3363gf6mlujq
+1702955935225|0|statement|connection 29|url jdbc:mysql://127.0.0.1:3306/jpa|     alter table category_item         drop         foreign key FKcq2n0opf5shyh84ex1fhukcbh|     alter table category_item         drop         foreign key FKcq2n0opf5shyh84ex1fhukcbh
+1702955935226|0|statement|connection 29|url jdbc:mysql://127.0.0.1:3306/jpa|     alter table order_item         drop         foreign key FKija6hjjiit8dprnmvtvgdp6ru|     alter table order_item         drop         foreign key FKija6hjjiit8dprnmvtvgdp6ru
+1702955935227|0|statement|connection 29|url jdbc:mysql://127.0.0.1:3306/jpa|     alter table order_item         drop         foreign key FKt4dc2r9nbvbujrljv3e23iibt|     alter table order_item         drop         foreign key FKt4dc2r9nbvbujrljv3e23iibt
+1702955935228|0|statement|connection 29|url jdbc:mysql://127.0.0.1:3306/jpa|     alter table orders         drop         foreign key FKtkrur7wg4d8ax0pwgo0vmy20c|     alter table orders         drop         foreign key FKtkrur7wg4d8ax0pwgo0vmy20c
+1702955935229|0|statement|connection 29|url jdbc:mysql://127.0.0.1:3306/jpa|     alter table orders         drop         foreign key FKpktxwhj3x9m4gth5ff6bkqgeb|     alter table orders         drop         foreign key FKpktxwhj3x9m4gth5ff6bkqgeb
+1702955935296|67|statement|connection 29|url jdbc:mysql://127.0.0.1:3306/jpa|     drop table if exists category|     drop table if exists category
+1702955935333|36|statement|connection 29|url jdbc:mysql://127.0.0.1:3306/jpa|     drop table if exists category_item|     drop table if exists category_item
+1702955935369|35|statement|connection 29|url jdbc:mysql://127.0.0.1:3306/jpa|     drop table if exists category_seq|     drop table if exists category_seq
+1702955935405|35|statement|connection 29|url jdbc:mysql://127.0.0.1:3306/jpa|     drop table if exists delivery|     drop table if exists delivery
+1702955935441|35|statement|connection 29|url jdbc:mysql://127.0.0.1:3306/jpa|     drop table if exists delivery_seq|     drop table if exists delivery_seq
+1702955935477|35|statement|connection 29|url jdbc:mysql://127.0.0.1:3306/jpa|     drop table if exists item|     drop table if exists item
+1702955935509|31|statement|connection 29|url jdbc:mysql://127.0.0.1:3306/jpa|     drop table if exists item_seq|     drop table if exists item_seq
+1702955935546|36|statement|connection 29|url jdbc:mysql://127.0.0.1:3306/jpa|     drop table if exists member|     drop table if exists member
+1702955935587|39|statement|connection 29|url jdbc:mysql://127.0.0.1:3306/jpa|     drop table if exists member_seq|     drop table if exists member_seq
+1702955935631|43|statement|connection 29|url jdbc:mysql://127.0.0.1:3306/jpa|     drop table if exists order_item_seq|     drop table if exists order_item_seq
+1702955935678|42|statement|connection 29|url jdbc:mysql://127.0.0.1:3306/jpa|     drop table if exists order_item|     drop table if exists order_item
+1702955935710|31|statement|connection 29|url jdbc:mysql://127.0.0.1:3306/jpa|     drop table if exists orders|     drop table if exists orders
+1702955935748|37|statement|connection 29|url jdbc:mysql://127.0.0.1:3306/jpa|     drop table if exists orders_seq|     drop table if exists orders_seq
+1702955935756|0|statement|connection 30|url jdbc:mysql://127.0.0.1:3306/jpa|     alter table category         drop         foreign key FK2y94svpmqttx80mshyny85wqr|     alter table category         drop         foreign key FK2y94svpmqttx80mshyny85wqr
+1702955935757|0|statement|connection 30|url jdbc:mysql://127.0.0.1:3306/jpa|     alter table category_item         drop         foreign key FKu8b4lwqutcdq3363gf6mlujq|     alter table category_item         drop         foreign key FKu8b4lwqutcdq3363gf6mlujq
+1702955935758|0|statement|connection 30|url jdbc:mysql://127.0.0.1:3306/jpa|     alter table category_item         drop         foreign key FKcq2n0opf5shyh84ex1fhukcbh|     alter table category_item         drop         foreign key FKcq2n0opf5shyh84ex1fhukcbh
+1702955935759|0|statement|connection 30|url jdbc:mysql://127.0.0.1:3306/jpa|     alter table order_item         drop         foreign key FKija6hjjiit8dprnmvtvgdp6ru|     alter table order_item         drop         foreign key FKija6hjjiit8dprnmvtvgdp6ru
+1702955935759|0|statement|connection 30|url jdbc:mysql://127.0.0.1:3306/jpa|     alter table order_item         drop         foreign key FKt4dc2r9nbvbujrljv3e23iibt|     alter table order_item         drop         foreign key FKt4dc2r9nbvbujrljv3e23iibt
+1702955935760|0|statement|connection 30|url jdbc:mysql://127.0.0.1:3306/jpa|     alter table orders         drop         foreign key FKtkrur7wg4d8ax0pwgo0vmy20c|     alter table orders         drop         foreign key FKtkrur7wg4d8ax0pwgo0vmy20c
+1702955935761|0|statement|connection 30|url jdbc:mysql://127.0.0.1:3306/jpa|     alter table orders         drop         foreign key FKpktxwhj3x9m4gth5ff6bkqgeb|     alter table orders         drop         foreign key FKpktxwhj3x9m4gth5ff6bkqgeb
+1702955935790|29|statement|connection 30|url jdbc:mysql://127.0.0.1:3306/jpa|     drop table if exists category|     drop table if exists category
+1702955935827|35|statement|connection 30|url jdbc:mysql://127.0.0.1:3306/jpa|     drop table if exists category_item|     drop table if exists category_item
+1702955935862|34|statement|connection 30|url jdbc:mysql://127.0.0.1:3306/jpa|     drop table if exists category_seq|     drop table if exists category_seq
+1702955935900|37|statement|connection 30|url jdbc:mysql://127.0.0.1:3306/jpa|     drop table if exists delivery|     drop table if exists delivery
+1702955935932|31|statement|connection 30|url jdbc:mysql://127.0.0.1:3306/jpa|     drop table if exists delivery_seq|     drop table if exists delivery_seq
+1702955935972|39|statement|connection 30|url jdbc:mysql://127.0.0.1:3306/jpa|     drop table if exists item|     drop table if exists item
+1702955936004|31|statement|connection 30|url jdbc:mysql://127.0.0.1:3306/jpa|     drop table if exists item_seq|     drop table if exists item_seq
+1702955936040|35|statement|connection 30|url jdbc:mysql://127.0.0.1:3306/jpa|     drop table if exists member|     drop table if exists member
+1702955936076|35|statement|connection 30|url jdbc:mysql://127.0.0.1:3306/jpa|     drop table if exists member_seq|     drop table if exists member_seq
+1702955936112|35|statement|connection 30|url jdbc:mysql://127.0.0.1:3306/jpa|     drop table if exists order_item_seq|     drop table if exists order_item_seq
+1702955936146|33|statement|connection 30|url jdbc:mysql://127.0.0.1:3306/jpa|     drop table if exists order_item|     drop table if exists order_item
+1702955936178|30|statement|connection 30|url jdbc:mysql://127.0.0.1:3306/jpa|     drop table if exists orders|     drop table if exists orders
+1702955936215|36|statement|connection 30|url jdbc:mysql://127.0.0.1:3306/jpa|     drop table if exists orders_seq|     drop table if exists orders_seq
+1702955958839|1|statement|connection 29|url jdbc:mysql://127.0.0.1:3306/jpa|     alter table category         drop         foreign key FK2y94svpmqttx80mshyny85wqr|     alter table category         drop         foreign key FK2y94svpmqttx80mshyny85wqr
+1702955958842|1|statement|connection 29|url jdbc:mysql://127.0.0.1:3306/jpa|     alter table category_item         drop         foreign key FKu8b4lwqutcdq3363gf6mlujq|     alter table category_item         drop         foreign key FKu8b4lwqutcdq3363gf6mlujq
+1702955958845|2|statement|connection 29|url jdbc:mysql://127.0.0.1:3306/jpa|     alter table category_item         drop         foreign key FKcq2n0opf5shyh84ex1fhukcbh|     alter table category_item         drop         foreign key FKcq2n0opf5shyh84ex1fhukcbh
+1702955958847|1|statement|connection 29|url jdbc:mysql://127.0.0.1:3306/jpa|     alter table order_item         drop         foreign key FKija6hjjiit8dprnmvtvgdp6ru|     alter table order_item         drop         foreign key FKija6hjjiit8dprnmvtvgdp6ru
+1702955958849|0|statement|connection 29|url jdbc:mysql://127.0.0.1:3306/jpa|     alter table order_item         drop         foreign key FKt4dc2r9nbvbujrljv3e23iibt|     alter table order_item         drop         foreign key FKt4dc2r9nbvbujrljv3e23iibt
+1702955958850|0|statement|connection 29|url jdbc:mysql://127.0.0.1:3306/jpa|     alter table orders         drop         foreign key FKtkrur7wg4d8ax0pwgo0vmy20c|     alter table orders         drop         foreign key FKtkrur7wg4d8ax0pwgo0vmy20c
+1702955958851|0|statement|connection 29|url jdbc:mysql://127.0.0.1:3306/jpa|     alter table orders         drop         foreign key FKpktxwhj3x9m4gth5ff6bkqgeb|     alter table orders         drop         foreign key FKpktxwhj3x9m4gth5ff6bkqgeb
+1702955958917|65|statement|connection 29|url jdbc:mysql://127.0.0.1:3306/jpa|     drop table if exists category|     drop table if exists category
+1702955958949|31|statement|connection 29|url jdbc:mysql://127.0.0.1:3306/jpa|     drop table if exists category_item|     drop table if exists category_item
+1702955959015|63|statement|connection 29|url jdbc:mysql://127.0.0.1:3306/jpa|     drop table if exists category_seq|     drop table if exists category_seq
+1702955959047|31|statement|connection 29|url jdbc:mysql://127.0.0.1:3306/jpa|     drop table if exists delivery|     drop table if exists delivery
+1702955959155|107|statement|connection 29|url jdbc:mysql://127.0.0.1:3306/jpa|     drop table if exists delivery_seq|     drop table if exists delivery_seq
+1702955959192|35|statement|connection 29|url jdbc:mysql://127.0.0.1:3306/jpa|     drop table if exists item|     drop table if exists item
+1702955959277|79|statement|connection 29|url jdbc:mysql://127.0.0.1:3306/jpa|     drop table if exists item_seq|     drop table if exists item_seq
+1702955959332|54|statement|connection 29|url jdbc:mysql://127.0.0.1:3306/jpa|     drop table if exists member|     drop table if exists member
+1702955959519|186|statement|connection 29|url jdbc:mysql://127.0.0.1:3306/jpa|     drop table if exists member_seq|     drop table if exists member_seq
+1702955959561|41|statement|connection 29|url jdbc:mysql://127.0.0.1:3306/jpa|     drop table if exists order_item_seq|     drop table if exists order_item_seq
+1702955959595|32|statement|connection 29|url jdbc:mysql://127.0.0.1:3306/jpa|     drop table if exists order_item|     drop table if exists order_item
+1702955959630|34|statement|connection 29|url jdbc:mysql://127.0.0.1:3306/jpa|     drop table if exists orders|     drop table if exists orders
+1702955959665|34|statement|connection 29|url jdbc:mysql://127.0.0.1:3306/jpa|     drop table if exists orders_seq|     drop table if exists orders_seq
+1702955959675|0|statement|connection 30|url jdbc:mysql://127.0.0.1:3306/jpa|     alter table category         drop         foreign key FK2y94svpmqttx80mshyny85wqr|     alter table category         drop         foreign key FK2y94svpmqttx80mshyny85wqr
+1702955959677|0|statement|connection 30|url jdbc:mysql://127.0.0.1:3306/jpa|     alter table category_item         drop         foreign key FKu8b4lwqutcdq3363gf6mlujq|     alter table category_item         drop         foreign key FKu8b4lwqutcdq3363gf6mlujq
+1702955959679|1|statement|connection 30|url jdbc:mysql://127.0.0.1:3306/jpa|     alter table category_item         drop         foreign key FKcq2n0opf5shyh84ex1fhukcbh|     alter table category_item         drop         foreign key FKcq2n0opf5shyh84ex1fhukcbh
+1702955959681|1|statement|connection 30|url jdbc:mysql://127.0.0.1:3306/jpa|     alter table order_item         drop         foreign key FKija6hjjiit8dprnmvtvgdp6ru|     alter table order_item         drop         foreign key FKija6hjjiit8dprnmvtvgdp6ru
+1702955959683|1|statement|connection 30|url jdbc:mysql://127.0.0.1:3306/jpa|     alter table order_item         drop         foreign key FKt4dc2r9nbvbujrljv3e23iibt|     alter table order_item         drop         foreign key FKt4dc2r9nbvbujrljv3e23iibt
+1702955959684|0|statement|connection 30|url jdbc:mysql://127.0.0.1:3306/jpa|     alter table orders         drop         foreign key FKtkrur7wg4d8ax0pwgo0vmy20c|     alter table orders         drop         foreign key FKtkrur7wg4d8ax0pwgo0vmy20c
+1702955959685|0|statement|connection 30|url jdbc:mysql://127.0.0.1:3306/jpa|     alter table orders         drop         foreign key FKpktxwhj3x9m4gth5ff6bkqgeb|     alter table orders         drop         foreign key FKpktxwhj3x9m4gth5ff6bkqgeb
+1702955959791|105|statement|connection 30|url jdbc:mysql://127.0.0.1:3306/jpa|     drop table if exists category|     drop table if exists category
+1702955959860|68|statement|connection 30|url jdbc:mysql://127.0.0.1:3306/jpa|     drop table if exists category_item|     drop table if exists category_item
+1702955959899|37|statement|connection 30|url jdbc:mysql://127.0.0.1:3306/jpa|     drop table if exists category_seq|     drop table if exists category_seq
+1702955959933|33|statement|connection 30|url jdbc:mysql://127.0.0.1:3306/jpa|     drop table if exists delivery|     drop table if exists delivery
+1702955959973|39|statement|connection 30|url jdbc:mysql://127.0.0.1:3306/jpa|     drop table if exists delivery_seq|     drop table if exists delivery_seq
+1702955960015|40|statement|connection 30|url jdbc:mysql://127.0.0.1:3306/jpa|     drop table if exists item|     drop table if exists item
+1702955960048|32|statement|connection 30|url jdbc:mysql://127.0.0.1:3306/jpa|     drop table if exists item_seq|     drop table if exists item_seq
+1702955960084|34|statement|connection 30|url jdbc:mysql://127.0.0.1:3306/jpa|     drop table if exists member|     drop table if exists member
+1702955960120|36|statement|connection 30|url jdbc:mysql://127.0.0.1:3306/jpa|     drop table if exists member_seq|     drop table if exists member_seq
+1702955960153|32|statement|connection 30|url jdbc:mysql://127.0.0.1:3306/jpa|     drop table if exists order_item_seq|     drop table if exists order_item_seq
+1702955960186|32|statement|connection 30|url jdbc:mysql://127.0.0.1:3306/jpa|     drop table if exists order_item|     drop table if exists order_item
+1702955960227|39|statement|connection 30|url jdbc:mysql://127.0.0.1:3306/jpa|     drop table if exists orders|     drop table if exists orders
+1702955960260|32|statement|connection 30|url jdbc:mysql://127.0.0.1:3306/jpa|     drop table if exists orders_seq|     drop table if exists orders_seq

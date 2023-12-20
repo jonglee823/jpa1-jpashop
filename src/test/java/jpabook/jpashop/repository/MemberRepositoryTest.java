@@ -32,7 +32,7 @@ class MemberRepositoryTest {
 
         Long savedId = memberRepository.save(member);
 
-        Member findMember = memberRepository.find(savedId);
+        Member findMember = memberRepository.findOne(savedId);
 
         assertEquals(findMember.getId(), member.getId());
         assertEquals(findMember.getName(), member.getName());

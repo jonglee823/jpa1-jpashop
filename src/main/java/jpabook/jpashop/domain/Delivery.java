@@ -1,6 +1,7 @@
 package jpabook.jpashop.domain;
 
 import jakarta.persistence.*;
+import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
@@ -21,9 +22,15 @@ public class Delivery {
     @Enumerated(EnumType.STRING)
     private DeliveryStatus status;
 
-    @OneToOne(mappedBy = "delivery", cascade = ALL)
+    @OneToOne(mappedBy = "delivery")
     private Order order;
 
     @Embedded
     private Address address;
+
+    @Builder
+    public Delivery(DeliveryStatus status, Address address) {
+        this.status = status;
+        this.address = address;
+    }
 }

@@ -1,6 +1,7 @@
 package jpabook.jpashop.domain;
 
 import jakarta.persistence.*;
+import jpabook.jpashop.request.MemberRequest;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -28,9 +29,17 @@ public class Member {
     private List<Order> orders = new ArrayList<>();
 
     @Builder
-    public Member(String name, Address address, List<Order> orders) {
+    public Member(String name, Address address) {
         this.name = name;
         this.address = address;
-        this.orders = orders;
+    }
+
+    public Member(MemberRequest memberRequest){
+        this.name = memberRequest.getName();
+        this.address = Address.builder()
+                                .city(memberRequest.getCity())
+                                .street(memberRequest.getStreet())
+                                .zipcode(memberRequest.getZipcode())
+                                .build();
     }
 }
